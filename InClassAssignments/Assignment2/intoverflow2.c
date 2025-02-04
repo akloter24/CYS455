@@ -5,7 +5,7 @@ int main(int argc, char *argv[]) {
     unsigned short s;
     int i;
     char buf[80];
-    //check if there are at least 3 arguemtns (program name + 2 additional)
+    //check if there are at least 3 arguments (program name + 2 additional)
     if (argc < 3){
         return -1;
     }
