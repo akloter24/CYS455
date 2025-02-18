@@ -3,11 +3,11 @@
 #include <time.h>
 
 int main(){
-    //srand(time(0))
+    srand(time(0));
 
-    int number1 = rand() % 10;
-    int number2 = rand() % 10;
-    int number3 = rand() % 10;
+    int number1 = rand();
+    int number2 = rand();
+    int number3 = rand();
 
     printf("%d\n", number1);
     printf("%d\n", number2);
